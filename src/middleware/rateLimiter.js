@@ -1,4 +1,4 @@
-const redisClient = require('../config/redisclient');
+const redisClient = require('../config/redisClient');
 
 const WINDOW_SIZE_IN_HOURS = 1;
 const MAX_WINDOW_REQUEST_COUNT = 3; // Allow 20 requests per hour
